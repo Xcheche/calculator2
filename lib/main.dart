@@ -14,6 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Calculator',
+      color: Colors.indigo,
+
+      // theme: ThemeData(primarySwatch: Colors.grey),
+
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),

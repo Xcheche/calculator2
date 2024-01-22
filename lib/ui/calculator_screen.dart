@@ -80,12 +80,14 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               child: Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Container(
-                  alignment: Alignment.bottomRight,
+                  alignment: Alignment.bottomCenter,
                   child: Text(
-                    '$textToDisplay:',
+                    // ignore: unnecessary_string_interpolations
+                    '$textToDisplay',
                     style: const TextStyle(
                       fontSize: 45.0,
                       fontWeight: FontWeight.w600,
+                      color: Colors.blueGrey,
                     ),
                   ),
                 ),
