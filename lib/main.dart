@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'ui/calculator_screen.dart';
 import 'ui/splash_screen.dart';
 
 void main() {
